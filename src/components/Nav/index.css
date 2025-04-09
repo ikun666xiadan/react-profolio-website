@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  gap: 1rem;
+  width: max-content;
+  background: rgba(0, 0, 0, 0.3);
+  padding: 0.7rem 1.5rem;
+  z-index: 2;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 2rem;
+  border-radius: 50px;
+  backdrop-filter: blur(15px); /* 15像素的模糊（磨砂玻璃效果） */
+}
+nav a {
+  background: transparent;
+  padding: 1rem;
+  font-size: 25px;
+  color: var(--color-light);
+  display: flex;
+  -webkit-tap-highlight-color: transparent; /* 移除移动端点击高亮 */
+}
+
+nav a.active {
+  background: var(--color-bg);
+  color: var(--color-white);
+  border-radius: 50%;
+}
