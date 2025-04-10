@@ -26,3 +26,30 @@ img {
   padding: 1rem 0;
   font-size: 3rem;
 }
+
+/* 不同设备的适配 */
+/* 平板设备 */
+@media screen and (max-width: 1024px) {
+  .portfolio_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+/* 手机设备 */
+@media screen and (max-width: 600px) {
+  .portfolio_container{
+    display: flex;
+    flex-direction: column;
+  }
+  .portfolio_content{
+    padding: 1.5rem;
+  }
+  img{
+    width: 200px;
+    height: 180px;
+  }
+  .portfolio_titile{
+    font-size: 2rem;
+  }
+}
