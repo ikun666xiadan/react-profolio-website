@@ -1,0 +1,58 @@
+.services_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.services {
+  background: var(--color-bg-variant);
+  border-radius: 2rem;
+  padding: 1rem 2rem;
+  margin: 3rem;
+  text-align: center;
+  transition: var(--transition);
+}
+.services:hover {
+  background: transparent;
+  border: 1px solid var(--color-light);
+}
+
+.services_head {
+  background: var(--color-primary);
+  border-radius: 2rem;
+  padding: 2rem;
+  box-shadow: 0 2rem 1rem rgba(0, 0, 0, 0.1);
+}
+
+.services_li {
+  display: flex;
+  padding: 1.5rem;
+  align-items: center;
+}
+
+.services_icon {
+  font-size: 2rem;
+  margin: 0 0.5rem;
+}
+
+/* 不同设备的适配 */
+/* 平板设备 */
+@media screen and (max-width: 1024px) {
+  .services_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .services {
+    height: auto;
+  }
+  .services_head {
+    padding: 1rem;
+  }
+}
+
+/* 手机设备 */
+@media screen and (max-width: 600px) {
+  .services_container {
+    display: flex;
+    flex-direction: column;
+  }
+}
