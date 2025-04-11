@@ -12,11 +12,13 @@ function Header() {
         <h1>Y-sum</h1>
         <h5 className="text-light">前端工程师</h5>
         <CTA />
-          <HeaderIcon />
-          <div className="me">
-            <img src={Me} className="img" alt="" />
-          </div>
-          <a href="#contact" className="scroll_down">Scroll_down</a>
+        <HeaderIcon />
+        <div className="me">
+          <img src={Me} className="img" alt="" />
+        </div>
+        <a href="#contact" className="scroll_down">
+          Scroll_down
+        </a>
       </div>
     </header>
   );

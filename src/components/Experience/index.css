@@ -51,4 +51,7 @@
         padding: 2rem;
         margin: 0 auto;
     }
+    .text-light{
+       font-size: 15px;
+    }
 }

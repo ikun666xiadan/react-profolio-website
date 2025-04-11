@@ -4,6 +4,10 @@ header {
   padding-top: 7rem;
 }
 
+.text-light {
+  font-size: 25px;
+}
+
 .header_container {
   text-align: center;
   height: 100%;

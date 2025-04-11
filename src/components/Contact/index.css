@@ -73,4 +73,8 @@ textarea {
     flex-direction: column;
     gap: 2rem;
   }
+  .contact_option:hover{
+    background: var(--color-bg-variant);
+    border: 1px solid transparent;
+  }
 }
