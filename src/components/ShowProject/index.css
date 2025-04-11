@@ -1,0 +1,55 @@
+.showProject_container{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 2rem;
+    margin: 2rem 10rem;
+}
+
+.showProject_content{
+    background: var(--color-bg-variant);
+    width: 30rem;
+    padding: 2rem;
+    border-radius: 2rem;
+    transition: var(--transition);
+}
+
+.showProject_content:hover{
+    border: 1px solid var(--color-light);
+    background: transparent;
+}
+
+.showProject_title{
+    font-size: 2rem;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.project_introduction{
+    color: var(--color-light);
+}
+
+/* 不同设备的适配 */
+/* 平板设备 */
+@media screen and (max-width: 1024px) {
+    .showProject_container{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .showProject_content:hover{
+        background: var(--color-bg-variant);
+        border: none;
+    }
+}
+  
+/* 手机设备 */
+@media screen and (max-width: 600px) {
+    .showProject_container{
+        display: flex;
+        margin: 0 1rem;
+        flex-direction: column;
+    }
+    .showProject_content:hover{
+        background: var(--color-bg-variant);
+        border: none;
+    }
+}
