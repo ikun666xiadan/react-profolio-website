@@ -55,4 +55,8 @@
     display: flex;
     flex-direction: column;
   }
+  .services:hover {
+    background: var(--color-bg-variant);
+    border: none;
+  }
 }

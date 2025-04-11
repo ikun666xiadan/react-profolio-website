@@ -52,4 +52,8 @@ img {
   .portfolio_titile{
     font-size: 2rem;
   }
+  .portfolio_content:hover {
+    background: var(--color-bg-variant);
+    border: none;
+  }
 }
