@@ -7,8 +7,8 @@
 
 .showProject_content{
     background: var(--color-bg-variant);
-    width: 30rem;
     padding: 2rem;
+    height: 100%;
     border-radius: 2rem;
     transition: var(--transition);
 }

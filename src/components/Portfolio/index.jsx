@@ -1,31 +1,35 @@
 import React from "react";
-import Me from "../../assets/me.png";
 import "./index.css";
+import Me from "../../assets/me.png";
+import Protfolio from '../../assets/protfolio.png'
+import Jike from '../../assets/jike.png'
+import Wallpaper from '../../assets/wallpaper.png'
+import Rabbit from '../../assets/rabbit.png'
 
 const data = [
   {
     id: 1,
     title: "小兔鲜商城",
     url: "https://github.com/ikun666xiadan/vue-xiaotuxian-project.git",
-    img: Me,
+    img: Rabbit,
   },
   {
     id: 2,
     title: "Protfolio Website",
     url: "https://github.com/ikun666xiadan/react-profolio-website.git",
-    img: Me,
+    img: Protfolio,
   },
   {
     id: 3,
-    title: "小兔鲜商城",
-    url: "https://github.com/ikun666xiadan/vue-xiaotuxian-project.git",
-    img: Me,
+    title: "噜啦壁纸(小程序)",
+    url: "https://github.com/ikun666xiadan/Lula-wallpaper.git",
+    img: Wallpaper,
   },
   {
     id: 4,
-    title: "小兔鲜商城",
-    url: "https://github.com/ikun666xiadan/vue-xiaotuxian-project.git",
-    img: Me,
+    title: "极客后台管理系统",
+    url: "https://github.com/ikun666xiadan/react-jike.git",
+    img: Jike,
   },
 ];
 
