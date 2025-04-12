@@ -3,15 +3,20 @@ import "./index.css";
 import { MdOutlineMail } from "react-icons/md";
 import { LiaQq } from "react-icons/lia";
 import { TbBrandWechat } from "react-icons/tb";
-import emailjs from 'emailjs-com'
+import emailjs from "emailjs-com";
 
 function Contact() {
-  const form = useRef()
-  const sendEmail = (e)=>{
-    e.preventDefault()
-    emailjs.sendForm('service_avcdve8','template_aij8n4j',form.current,'zl7kcR20qzOIGqEx0')
-    e.target.reset()
-  }
+  const form = useRef();
+  const sendEmail = (e) => {
+    e.preventDefault();
+    emailjs.sendForm(
+      "service_avcdve8",
+      "template_aij8n4j",
+      form.current,
+      "zl7kcR20qzOIGqEx0"
+    );
+    e.target.reset();
+  };
   return (
     <section id="contact">
       <h5>Get In Touch</h5>

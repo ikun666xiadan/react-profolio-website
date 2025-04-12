@@ -1,58 +1,58 @@
-.showProject_container{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    gap: 2rem;
-    margin: 2rem 10rem;
+.showProject_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin: 2rem 10rem;
 }
 
-.showProject_content{
-    background: var(--color-bg-variant);
-    padding: 2rem;
-    height: 100%;
-    border-radius: 2rem;
-    transition: var(--transition);
+.showProject_content {
+  background: var(--color-bg-variant);
+  padding: 2rem;
+  height: 100%;
+  border-radius: 2rem;
+  transition: var(--transition);
 }
 
-.showProject_content:hover{
-    border: 1px solid var(--color-light);
-    background: transparent;
+.showProject_content:hover {
+  border: 1px solid var(--color-light);
+  background: transparent;
 }
 
-.showProject_title{
-    font-size: 2rem;
-    text-align: center;
-    padding-bottom: 5px;
+.showProject_title {
+  font-size: 2rem;
+  text-align: center;
+  padding-bottom: 5px;
 }
 
-.project_introduction{
-    color: var(--color-light);
+.project_introduction {
+  color: var(--color-light);
 }
 
 /* 不同设备的适配 */
 /* 平板设备 */
 @media screen and (max-width: 1024px) {
-    .showProject_container{
-        display: grid;
-        grid-template-columns: 1fr 1fr;
-    }
-    .showProject_content:hover{
-        background: var(--color-bg-variant);
-        border: none;
-    }
+  .showProject_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .showProject_content:hover {
+    background: var(--color-bg-variant);
+    border: none;
+  }
 }
-  
+
 /* 手机设备 */
 @media screen and (max-width: 600px) {
-    .showProject_container{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .showProject_content{
-        width: 25rem;
-    }
-    .showProject_content:hover{
-        background: var(--color-bg-variant);
-        border: none;
-    }
+  .showProject_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .showProject_content {
+    width: 25rem;
+  }
+  .showProject_content:hover {
+    background: var(--color-bg-variant);
+    border: none;
+  }
 }

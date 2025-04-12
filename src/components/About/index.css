@@ -95,7 +95,7 @@ img:hover {
   .about_content {
     text-align: center;
   }
-  .about_card:hover{
+  .about_card:hover {
     background: var(--color-primary-variant);
     border: none;
   }

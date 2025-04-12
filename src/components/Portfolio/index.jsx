@@ -1,10 +1,9 @@
 import React from "react";
 import "./index.css";
-import Me from "../../assets/me.png";
-import Protfolio from '../../assets/protfolio.png'
-import Jike from '../../assets/jike.png'
-import Wallpaper from '../../assets/wallpaper.png'
-import Rabbit from '../../assets/rabbit.png'
+import Protfolio from "../../assets/protfolio.png";
+import Jike from "../../assets/jike.png";
+import Wallpaper from "../../assets/wallpaper.png";
+import Rabbit from "../../assets/rabbit.png";
 
 const data = [
   {

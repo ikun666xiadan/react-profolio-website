@@ -17,7 +17,7 @@
   border-radius: 2rem;
 }
 
-.contact_option:hover{
+.contact_option:hover {
   background: transparent;
   border: 1px solid var(--color-light);
 }
@@ -68,12 +68,12 @@ textarea {
     flex-direction: column;
     gap: 2rem;
   }
-  .contact_content{
+  .contact_content {
     display: flex;
     flex-direction: column;
     gap: 2rem;
   }
-  .contact_option:hover{
+  .contact_option:hover {
     background: var(--color-bg-variant);
     border: 1px solid transparent;
   }
