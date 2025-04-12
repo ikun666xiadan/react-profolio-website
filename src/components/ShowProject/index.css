@@ -48,6 +48,9 @@
         flex-direction: column;
         align-items: center;
     }
+    .showProject_content{
+        width: 25rem;
+    }
     .showProject_content:hover{
         background: var(--color-bg-variant);
         border: none;
