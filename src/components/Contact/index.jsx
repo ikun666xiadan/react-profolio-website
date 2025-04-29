@@ -51,7 +51,7 @@ function Contact() {
             placeholder="Your Message"
             required
           ></textarea>
-          <button className="btn btn-primary">Send Message</button>
+          <button className="btn btn-primary">发 送</button>
         </form>
       </div>
     </section>

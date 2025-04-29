@@ -4,6 +4,7 @@ import Protfolio from "../../assets/protfolio.png";
 import Jike from "../../assets/jike.png";
 import Wallpaper from "../../assets/wallpaper.png";
 import Rabbit from "../../assets/rabbit.png";
+import Admin from "../../assets/admin.png"
 
 const data = [
   {
@@ -20,12 +21,18 @@ const data = [
   },
   {
     id: 3,
+    title: "通用后台管理系统",
+    url: "https://github.com/ikun666xiadan/react-admin-frontend.git",
+    img: Admin,
+  },
+  {
+    id: 4,
     title: "噜啦壁纸(小程序)",
     url: "https://github.com/ikun666xiadan/Lula-wallpaper.git",
     img: Wallpaper,
   },
   {
-    id: 4,
+    id: 5,
     title: "极客后台管理系统",
     url: "https://github.com/ikun666xiadan/react-jike.git",
     img: Jike,
